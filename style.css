@@ -1,0 +1,116 @@
+.threeBlocks{
+	text-align:center;
+}
+
+.box{
+	background: #fff;
+	border: 1px solid #000;
+}
+
+.box > p{
+	padding: 0px 30px 30px;
+}
+
+.box > img{
+	border: 1px solid #343a40;
+	border-radius: 50%;
+	margin: 10px 0px 10px;
+	width: 40%;
+}
+
+.box > img:hover{
+	border: 5px solid #343a40;
+}
+
+.box:hover{
+	background: #dc3545;
+	-webkit-transition: background 2s;
+	transition: background 2s;
+}
+
+.textBlock{
+	background: #fff;
+	text-align: center;
+	
+}
+
+.info > p{
+color: #343a40;
+}
+
+.textBox{
+	font-size: 24px;
+	padding: 0px 20px;
+}
+
+.fiveBlocks{
+	text-align: center !important;
+}
+
+.fiveBox{
+	background: #fff;
+	padding:0px 10px 5px;
+	border: 1px solid #000;
+}
+
+.fiveBox > img{
+	width: 80%;
+}
+
+.page-footer{
+	border-top: 1px solid #000;
+}
+
+a{
+	color: #343a40;
+}
+
+.carousel-indicators li{
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin: 0px 10px;
+}
+
+.newsletter{
+	text-align: right;
+}
+
+div#carouselExampleCaptions:hover{
+	opacity: 0.7;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	
+}
+
+div#login, div#search{
+	    display: inline-block;
+		margin: 0px 10px 0px;
+}
+
+.nav-link{
+	color: #fff !important;
+}
+
+.icons{
+	float: right;
+}
+
+.iconsMobile{
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	  .icons {
+			display: none;
+	  }
+	  
+	  .iconsMobile{
+			display: block;
+	}
+	
+	div#loginMobile, div#searchMobile{
+			display: inline-block;
+			margin: 0px 10px 0px;
+	}
+}
